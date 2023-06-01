@@ -1,0 +1,100 @@
+body{
+    background-color: #e5e5e5;
+}
+
+.inicio{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 25px;
+}
+
+.miniinicio{
+    padding-right: 25px;
+    display: flex;
+    column-gap: 25px;
+}
+.pizzas{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.menu{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.delivery{
+    position: relative;
+}
+
+.envio{
+    color: red;
+    position: absolute;
+    left: 118px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.comprar{
+    color: white;
+    font-size: 30px;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.top{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+
+}
+
+.todo{
+    width: 75%;
+
+}
+
+.lista{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.final{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 106px;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    row-gap: 5px;
+}
+.logo2{
+    margin-right: 35px;
+}
